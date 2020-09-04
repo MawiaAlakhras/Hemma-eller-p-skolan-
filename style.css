@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  font-family: "Kufam", monospace;
+  background-color:#F8F6E6;
+  color: #785E4D;
+}
+
+
+#optOut {
+  bottom: 10px;
+  color: #785E4D;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#currentTime {
+  font-size: 10px;
+}
+
+.signature {
+  font-size: 25px;
+  font-weight: 600;
+}
+a {
+  color:#A2C0A4;
+  text-decoration: none;
+}
+
+
+@media (max-width: 480px){
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+  font-size: 20px;
+  font-weight: 600;
+  }
+  p {
+  font-size: 15px;
+  font-weight: 400;
+  }
+  #currentTime {
+    font-size: 8px;
+  }
+}
